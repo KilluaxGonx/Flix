@@ -40,8 +40,8 @@
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kzM-1g-veM">
-                                                    <rect key="frame" x="173" y="46" width="211" height="131"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kzM-1g-veM">
+                                                    <rect key="frame" x="173" y="46" width="211" height="20.5"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -52,8 +52,10 @@
                                                 <constraint firstItem="B1u-aU-d3P" firstAttribute="leading" secondItem="r7I-FU-d5N" secondAttribute="leadingMargin" id="2qw-5S-ROS"/>
                                                 <constraint firstItem="Hpf-2r-nGN" firstAttribute="top" secondItem="r7I-FU-d5N" secondAttribute="topMargin" id="3KH-py-Egh"/>
                                                 <constraint firstItem="Hpf-2r-nGN" firstAttribute="leading" secondItem="B1u-aU-d3P" secondAttribute="trailing" constant="37" id="4ml-Xg-stC"/>
+                                                <constraint firstItem="kzM-1g-veM" firstAttribute="top" secondItem="Hpf-2r-nGN" secondAttribute="bottom" constant="11" id="AGb-KG-d6p"/>
                                                 <constraint firstAttribute="trailingMargin" secondItem="kzM-1g-veM" secondAttribute="trailing" constant="10" id="ATe-HL-O50"/>
                                                 <constraint firstItem="Hpf-2r-nGN" firstAttribute="leading" secondItem="kzM-1g-veM" secondAttribute="leading" id="I2d-d9-VPM"/>
+                                                <constraint firstAttribute="bottomMargin" relation="greaterThanOrEqual" secondItem="kzM-1g-veM" secondAttribute="bottom" constant="2" id="QZH-JL-gUA"/>
                                                 <constraint firstAttribute="bottomMargin" relation="greaterThanOrEqual" secondItem="B1u-aU-d3P" secondAttribute="bottom" constant="2" id="evc-oA-CXP"/>
                                                 <constraint firstItem="Hpf-2r-nGN" firstAttribute="trailing" secondItem="r7I-FU-d5N" secondAttribute="trailingMargin" id="xcH-J0-Azr"/>
                                             </constraints>
